@@ -78,15 +78,16 @@
 
 <!-- Hero Section -->
 <section
-	class="flex min-h-[80vh] flex-col items-center justify-center bg-gradient-to-b from-background to-secondary/20 px-4"
+	class="flex min-h-[90vh] flex-col items-center justify-center bg-gradient-to-b from-background to-secondary/20 px-4 py-16"
 >
-	<div class="mx-auto max-w-4xl space-y-6 text-center">
-		<h1 class="text-4xl font-bold tracking-tight md:text-6xl">
-			Flip the Script: Rate Your Customers!
+	<div class="mx-auto max-w-4xl space-y-8 text-center">
+		<h1
+			class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-5xl font-bold text-transparent md:text-8xl"
+		>
+			Pley
 		</h1>
 		<p class="mx-auto max-w-2xl text-xl text-muted-foreground">
-			Turn the tables on traditional reviews. Finally, a platform where businesses can share their
-			customer experiences.
+			Turn the tables on traditional review platforms. Because customers need to be rated, too.
 		</p>
 		<div class="mt-8 flex justify-center gap-4">
 			<Button size="lg">Get Started</Button>
@@ -98,7 +99,7 @@
 <!-- Featured Reviews Section -->
 <section class="px-4 py-20">
 	<div class="mx-auto max-w-6xl">
-		<h2 class="mb-12 text-center text-3xl font-bold">Top Reviews 🔥</h2>
+		<h2 class="mb-12 text-center text-3xl font-bold">Top Reviews 🔥💩</h2>
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 			{#each topPosts as post}
 				<Card class="transition-shadow hover:shadow-lg">

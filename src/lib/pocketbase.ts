@@ -14,6 +14,7 @@ export const isAuthenticated = () => {
 };
 
 // Subscribe to auth state changes
-pb.authStore.onChange((auth) => {
-	console.log('Auth state changed:', auth);
+pb.authStore.onChange(() => {
+	// Save the auth store data to cookie on every change
+	document.cookie = pb.authStore.exportToCookie({ httpOnly: false });
 });
